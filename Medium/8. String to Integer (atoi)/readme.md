@@ -67,6 +67,7 @@ Since 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.
 
 
 ***
+### Note
 原本以爲又是一道 js 不用做的題目，不過仔細看了下發現還是要考慮一些東西，所以就... 寫吧。  
 
 [solution1.js](solution1.js)
