@@ -67,7 +67,7 @@ The rows ordered from weakest to strongest are [0,2,3,1].
 
 **備註 (\*1)**  
 根據 V8 引擎實現 `Array.prototype.sort()` 的 source code：
-```cpp
+```js
 function InnerArraySort(array, length, comparefn) {
   // In-place QuickSort algorithm.
   // For short (length <= 10) arrays, insertion sort is used for efficiency.
@@ -86,7 +86,8 @@ function InnerArraySort(array, length, comparefn) {
 ```
 
 上述程式碼取自於[這篇文章](https://medium.com/@leokao0726/%E6%B7%BA%E8%AB%87-js-sort-%E5%88%B0%E8%83%8C%E5%BE%8C%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95-1035f5b8cde8)。  
-我嘗試去找來源位置，但是找不到，姑且先相信了。  
+~~我嘗試去找來源位置，但是找不到，姑且先相信了。~~  
+找到了，在 [v8/v8/src/js/array.js](https://github.com/v8/v8/blob/cd81dd6d740ff82a1abbc68615e8769bd467f91e/src/js/array.js#L910) 這個檔案。這個版本裡甚至可以看到 short array 的判斷從 `(length <= 10)` 改成 `(length <= 22)`，看來是個與時俱進的數值，未來應該也會慢慢變多。  
 再說每個引擎的解釋方法可能略有不同 -- 爲此我還去翻了文件，文件並指定一定要用哪種排序法，看來是讓不同引擎各憑本事。  
 (Ref: [23.1.3.28 Array.prototype.sort](https://tc39.es/ecma262/#sec-array.prototype.sort))  
 
