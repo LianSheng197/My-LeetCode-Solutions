@@ -37,6 +37,9 @@
 後續的特殊演算法待補完。
 * [Medium/81](Medium/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/readme.md)  
 後續的高效寫法待補完。
+* [Medium/923](Medium/923.%203Sum%20With%20Multiplicity/readme.md)  
+`2022-04-06` 的每日挑戰，當時花了一個多鐘頭試了各種寫法，刪刪改改後仍生不出一個能用的答案，但又不願投降看解答。  
+也許過一陣子累積經驗夠了，就能回過頭把它解決呢？
 * [Medium/5219](Contest/Weekly/287/3.5219/readme.md)  
 來自於 Weekly Contest 287 的題目，日後需補完，並歸入 `Medium/` 底下
 * [Hard/5302](Contest/Weekly/287/4.5302/readme.md)  
