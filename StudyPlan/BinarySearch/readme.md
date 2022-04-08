@@ -2,7 +2,7 @@
 
 * **Binary Search I**
   * [704. Binary Search](../../Easy/704.%20Binary%20Search/readme.md)
-  * 374\. Guess Number Higher or Lower
+  * [374\. Guess Number Higher or Lower](../../Easy/374.%20Guess%20Number%20Higher%20or%20Lower/readme.md)
   * 35\. Search Insert Position
   * 852\. Peak Index in a Mountain Array
   * 367\. Valid Perfect Square
