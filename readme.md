@@ -33,6 +33,8 @@
 ~~也有可能哪天想不開跑去解 `Hard` 也說不定~~
 
 ## 待解決題目
+* [Easy/6037](Contest/Weekly/288/1.6037/readme.md)  
+來自於 Weekly Contest 288 的題目，日後需補完，並歸入 `Easy/` 底下
 * [Medium/5](Medium/5.%20Longest%20Palindromic%20Substring/readme.md)  
 後續的特殊演算法待補完。
 * [Medium/81](Medium/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/readme.md)  
@@ -44,8 +46,12 @@
 也許過一陣子累積經驗夠了，就能回過頭把它解決呢？
 * [Medium/5219](Contest/Weekly/287/3.5219/readme.md)  
 來自於 Weekly Contest 287 的題目，日後需補完，並歸入 `Medium/` 底下
+* [Medium/6039](Contest/Weekly/288/3.6039/readme.md)  
+來自於 Weekly Contest 288 的題目，日後需補完，並歸入 `Medium/` 底下
 * [Hard/5302](Contest/Weekly/287/4.5302/readme.md)  
 來自於 Weekly Contest 287 的題目，日後需補完，並歸入 `Hard/` 底下
+* [Medium/6040](Contest/Weekly/288/4.6040/readme.md)  
+來自於 Weekly Contest 288 的題目，日後需補完，並歸入 `Hard/` 底下
 
 
 ## 重大記錄
