@@ -58,3 +58,6 @@ Explanation: The input [1,3,2] means thread A calls first(), thread B calls thir
 這種題目我想我短期不會再碰。  
 因爲我不確定要怎麼在本機測試，剛剛都是寫完後感覺沒問題就直接提交答案。  
 阿不就幸好有過，不然我連怎麽 debug 都沒概念。
+
+
+後來想到怎麽寫本機測試了，於是把它補上 :D
