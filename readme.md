@@ -28,9 +28,9 @@
 
 ## 現階段目標
 
-目前著重於 `Easy` 及 `Medium` 的題目。  
-可以的話，我希望按照順序，逐個擊破。  
-~~也有可能哪天想不開跑去解 `Hard` 也說不定~~
+目前優先解每日題目，其次是針對特定主題。  
+有餘力時就參加一下 Contest。  
+
 
 ## 待解決題目
 * [Easy/6037](Contest/Weekly/288/1.6037/readme.md)  
@@ -50,8 +50,10 @@
 來自於 Weekly Contest 288 的題目，日後需補完，並歸入 `Medium/` 底下
 * [Hard/5302](Contest/Weekly/287/4.5302/readme.md)  
 來自於 Weekly Contest 287 的題目，日後需補完，並歸入 `Hard/` 底下
-* [Medium/6040](Contest/Weekly/288/4.6040/readme.md)  
+* [Hard/6040](Contest/Weekly/288/4.6040/readme.md)  
 來自於 Weekly Contest 288 的題目，日後需補完，並歸入 `Hard/` 底下
+* [Hard/6063](Contest/Biweekly/76/4.6063/readme.md)  
+來自於 Biweekly Contest 76 的題目，日後需補完，並歸入 `Hard/` 底下
 
 
 ## 重大記錄
