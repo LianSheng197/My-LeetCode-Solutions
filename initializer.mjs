@@ -4,6 +4,7 @@ import fetch from "node-fetch";
 import path from "path";
 import fs from "fs";
 import argsParser from "args-parser";
+import Search from "./lib/Search.mjs";
 
 /**
  * @typedef InitializerOptions
@@ -15,5 +16,7 @@ import argsParser from "args-parser";
 
 /** @type {InitializerOptions} */
 const args = argsParser(process.argv);
+
+
 
 console.log(args);

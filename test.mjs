@@ -66,14 +66,10 @@ const data = {
 
 fetch("https://leetcode.com/graphql", {
   "headers": {
-    "accept": "*/*",
     "content-type": "application/json",
   },
-  "referrerPolicy": "strict-origin-when-cross-origin",
   "body": JSON.stringify(data),
-  "method": "POST",
-  "mode": "cors",
-  "credentials": "include"
+  "method": "POST"
 }).then(
   r => r.json()
 ).then(
