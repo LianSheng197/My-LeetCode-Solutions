@@ -56,3 +56,14 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 > * 空間複雜度：`O(1)`
 > * 提交成績：`11ms (65%), 2.7MB (5%)` （這記憶體用量也太悽慘）
 > * 提交日期：`2022-04-27`
+
+
+在瀏覽其他人的做法時看到一個超酷的做法！！  
+它的過程非常簡單，且易懂。  
+
+[solution2.rs](solution2.rs)
+> * 時間複雜度：`O(n)`
+> * 空間複雜度：`O(1)`
+> * 提交成績：`16ms (35%), 2MB (95%)` 
+> * 提交日期：`2022-04-27`
+
