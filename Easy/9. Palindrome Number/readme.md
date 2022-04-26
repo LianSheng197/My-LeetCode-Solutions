@@ -36,7 +36,8 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 
 ***
-### Note
+
+### JavaScript
 
 這一題最直觀的做法就是轉成字串來做，不過呢，轉字串的做法在[第 5 題](../../Medium/5.%20Longest%20Palindromic%20Substring/readme.md)就做過了，所以這裡直接跳到最底下的 **Follow Up**：嘗試解題但不轉成字串。
 
@@ -45,11 +46,17 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 * 提交時成績：`270ms, 50.9MB`
 
 
-估計是前面先做過類似的題目，這題解起來沒什麼壓力。雖然事前只是一個大方向的想法，但邊寫邊想，過程中似乎沒什麼卡頓。  
-這就是訓練的成效嗎？才怪，不太可能這麼快就體現，但是感覺真的很棒 :D
+順便用 js 改寫 rust/s2
 
-目前寫到這裡已經 8 道題了，我現在唯一的想法就是要趕快搞清楚到底時間複雜度要怎麼算，不然每次計算時都懷疑自己的算法是不是錯的 orz
+> [solution2.js](solution2.js)
+> * 時間複雜度：`O(n)`
+> * 空間複雜度：`O(1)`
+> * 提交成績：`233ms (58%), 50.5MB (86%)` 
+> * 提交日期：`2022-04-27`
 
+
+### Rust
+因爲不轉成字串去做的話會在特殊測資下失真（如 799999999.0 變成 800000000.0）
 
 > [solution1.rs](solution1.rs)
 > * 時間複雜度：`O(n)`
@@ -61,7 +68,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 在瀏覽其他人的做法時看到一個超酷的做法！！  
 它的過程非常簡單，且易懂。  
 
-[solution2.rs](solution2.rs)
+> [solution2.rs](solution2.rs)
 > * 時間複雜度：`O(n)`
 > * 空間複雜度：`O(1)`
 > * 提交成績：`16ms (35%), 2MB (95%)` 
