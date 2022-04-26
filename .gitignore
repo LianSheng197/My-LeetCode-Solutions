@@ -2,5 +2,6 @@
 temp/
 node_modules/
 .vscode/
+rustbin/
 
 package-lock.json

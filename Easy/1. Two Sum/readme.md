@@ -52,3 +52,10 @@ The second train of thought is, without changing the array, can we use additiona
 [solution2.js](solution2.js) 
 * 時間複雜度： `O(n)`
 * 提交時消耗： `60ms, 42.8 MB`
+
+
+[solution1.rs](solution1.rs)
+* 時間複雜度：`O(n)`
+* 空間複雜度：`O(n)`
+* 提交成績：`4ms (49%), 2.6MB (18%)`
+* 提交日期：`2022-04-27`
